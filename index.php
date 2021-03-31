@@ -197,7 +197,7 @@ const countEl = document.getElementById('count');
 updateVisitCount();
 
 function updateVisitCount() {
-	fetch('https://api.countapi.xyz/create?namespace=biblestudybyjohnthomas.herokuapp.com&value=42')
+	fetch('https://api.countapi.xyz/create?namespace=biblestudybyjohnthomas.herokuapp.com&value=0')
 	.then(res => res.json())
 	.then(res => {
 		countEl.innerHTML = res.value;
