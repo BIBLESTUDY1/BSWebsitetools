@@ -1,7 +1,7 @@
 <?php
 
 //Open a new connection to the MySQL server
-$mysqli = new mysqli('localhost', 'root', '', 'biblestudy');
+$mysqli = new mysqli('remotemysql.com', 'hz0qMHSAYw', 'nfTYN9usvY', 'hz0qMHSAYw');
 
 //Output any connection error
 if ($mysqli->connect_error) {

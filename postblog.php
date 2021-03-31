@@ -6,8 +6,8 @@ if(!$_SESSION['anything']){
 }
 ?>
 <?php
-$con = mysqli_connect('localhost','root');
-mysqli_select_db($con,'biblestudy');
+$con = mysqli_connect('remotemysql.com','hz0qMHSAYw','nfTYN9usvY');
+mysqli_select_db($con,'hz0qMHSAYw');
 if(isset($_POST['submit'])){
     $bloggername = $_POST['bloggername'];
     $content = $_POST['content'];

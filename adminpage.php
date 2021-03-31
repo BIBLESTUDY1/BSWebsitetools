@@ -7,7 +7,7 @@ if(!$_SESSION['anything']){
 
 }
 
-$conn = mysqli_connect('localhost','root','','biblestudy');
+$conn = mysqli_connect('remotemysql.com','hz0qMHSAYw','nfTYN9usvY','hz0qMHSAYw');
 $query = "SELECT * FROM `members`";
 $result = mysqli_query($conn,$query);
 

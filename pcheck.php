@@ -6,7 +6,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 
 // open a new connection to MYSQL server
-$mysqli = new mysqli('localhost', 'root', '', 'biblestudy');
+$mysqli = new mysqli('remotemysql.com', 'hz0qMHSAYw', 'nfTYN9usvY', 'hz0qMHSAYw');
 
 //output any connection error
 if ($mysqli->connect_error){
