@@ -103,7 +103,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
     <div class="w3-col m9">
     
      <?php 
-     $con = mysqli_connect('localhost','root','','biblestudy');
+     $con = mysqli_connect('remotemysql.com','hz0qMHSAYw','nfTYN9usvY','hz0qMHSAYw');
      
      $displayquery = "select * from post_blog";
      $querydisplay = mysqli_query($con,$displayquery);
