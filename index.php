@@ -146,7 +146,9 @@ if (isset($_GET["logout"])) {
                     </div>
                     
                     <div class="col-sm-3 col-4">
-                       <span id="count">0</span>
+                       <span id="count">
+<a href="https://www.webfreecounter.com/" target="_blank"><img src="https://www.webfreecounter.com/hit.php?id=geodxcq&nd=6&style=50" border="0" alt="visitor counter"></a>
+</span>
                         <h4>Users visited</h4>
                     </div>
                 </div>
@@ -191,32 +193,7 @@ require_once('includes/footer.php');
 
 
 
-<script>
-const countEl = document.getElementById('count');
 
-updateVisitCount();
-
-function updateVisitCount() {
-	fetch('https://api.countapi.xyz/create?namespace=biblestudybyjohnthomas.herokuapp.com&value=0')
-	.then(res => res.json())
-	.then(res => {
-		countEl.innerHTML = res.value;
-	})
-}
-
-// SOCIAL PANEL JS
-const floating_btn = document.querySelector('.floating-btn');
-const close_btn = document.querySelector('.close-btn');
-const social_panel_container = document.querySelector('.social-panel-container');
-
-floating_btn.addEventListener('click', () => {
-	social_panel_container.classList.toggle('visible')
-});
-
-close_btn.addEventListener('click', () => {
-	social_panel_container.classList.remove('visible')
-});
-</script>
 </body>
 
 </html>
