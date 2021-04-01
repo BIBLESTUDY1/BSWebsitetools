@@ -38,7 +38,7 @@
 <header>
   <div class="container">
       <nav class="navbar navbar-expand-lg">
-          <h1><a class="navbar-brand" href="index.html">
+          <h1><a class="navbar-brand" href="index.php">
                   <span class=""><img src="imgs/logo.png" width="22%" height="10%" ></span> BIBLE STUDY
               </a></h1>
         
